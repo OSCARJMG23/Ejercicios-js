@@ -9,4 +9,11 @@ esta en 15,50 metros. */
 let record = 15.50
 let nomRecord = []
 let salRecord = 0
+var nAtletas = parseInt(prompt('Cuantas atletas han pasado por la meta: '))
 
+function medidor(nAtletas){
+    for(let i = 0; i < nAtletas; i++){
+
+    }
+}
+    

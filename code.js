@@ -89,11 +89,11 @@ else if(dineroPedro >=2.9){
  //Resumido o Recursivo
 const definirCompra = (n)=>{
     let din = prompt('Dinero de ${n}');
-    if (din >= 0.6 && din < 1) return ('${n}: helado de agua');
-    if (din >= 1 && din < 1.6) return ('${n}: helado de agua');
-    if (din >= 1.6 && din < 1.7) return ('${n}: helado de agua');
-    if (din >= 1.7 && din < 1.8) return ('${n}: helado de agua');
-    if (din >= 1.8 && din < 2.9) return ('${n}: helado de agua');
+    if (din >= 0.6 && din < 1) return (`${n}: helado de agua`);
+    if (din >= 1 && din < 1.6) return (`${n}: helado de agua`);
+    if (din >= 1.6 && din < 1.7) return (`${n}: helado de agua`);
+    if (din >= 1.7 && din < 1.8) return (`${n}: helado de agua`);
+    if (din >= 1.8 && din < 2.9) return (`${n}: helado de agua`);
     if (din >= 2.9) return ('${n}: helado de agua');
     else return ('${n}: No te alcanza para ningun helado pobre de damier')
 }
